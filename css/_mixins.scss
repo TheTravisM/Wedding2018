@@ -1,0 +1,39 @@
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin box-shadow-1 {
+  box-shadow: inset 0 -9px 18px 0 rgba(0,0,0,.2);
+}
+
+@mixin stars-after {
+  background: transparent;
+  content: " ";
+  position: absolute;
+  top: 2000px;
+}
+
+@mixin header-style {
+  background: -webkit-linear-gradient(rgba(255,255,255,.9), $primary-color-dark);
+  font-family: "Germanika";
+  letter-spacing: .05em;
+  margin: 0 auto;
+  margin-left: auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+.box {
+  @include border-radius(10px);
+}
