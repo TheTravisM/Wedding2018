@@ -9388,6 +9388,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   .hidden-print {
     display: none !important; } }
 /* Color Mixins */
+/* RGB Colors */
 .box {
   border-radius: 10px; }
 
