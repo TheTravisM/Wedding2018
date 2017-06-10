@@ -7,15 +7,15 @@ require('../css/app.scss');
 var React = require('react');
 var ReactDOM = require('react-dom');
 
-var Header = require('../components/header-sect');
-var CountDown = require('../components/count-down-sect');
-var Map = require('../components/location-sect');
-var WeddingParty = require('../components/wedding-party-sect');
-var OurStory = require('../components/our-story-sect');
-var Regristry = require('../components/registry-sect');
-var RSVP = require('../components/rsvp-sect');
-var Gallery = require('../components/gallery-sect');
-var Footer = require('../components/footer-sect');
+var Header = require('../components/header');
+var CountDown = require('../components/count-down');
+var Map = require('../components/location');
+var WeddingParty = require('../components/wedding-party');
+var OurStory = require('../components/our-story');
+var Regristry = require('../components/registry');
+var RSVP = require('../components/rsvp');
+var Gallery = require('../components/gallery');
+var Footer = require('../components/footer');
 
 ReactDOM.render (
   <div>
