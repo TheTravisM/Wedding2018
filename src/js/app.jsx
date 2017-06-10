@@ -1,5 +1,5 @@
 // JavaScript source code
-console.log('App Loaded');
+console.log('App Loaded :)');
  
 // SCSS Files 
 require('../css/app.scss');
