@@ -14,7 +14,7 @@ var HeaderSection = React.createClass({
         <hgroup>
           <h1>Jackie <small>&amp;</small> Travis</h1>
           <h2>Wedding</h2>
-          <h3>Sept 1st 2018</h3>
+          <time dateTime="2018-09-01">Sept 1st 2018</time>
         </hgroup>
       </header>
     );

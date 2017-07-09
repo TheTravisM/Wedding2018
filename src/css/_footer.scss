@@ -28,13 +28,14 @@
     -webkit-text-fill-color: transparent;
   }
 
-  h1, h2, h3 {
+  h1, h2, time {
     @include header-style;
     color: $seconday-color;
   }
 
-  h3 {
+  time {
     font-family: 'Open Sans', sans-serif;
+    line-height: 1;
   }
   // Extra small devices (portrait phones, less than 576px)
   // No media query since this is the default in Bootstrap
@@ -50,7 +51,7 @@
     margin-top: -3%
   }
 
-  h3 {
+  time {
     font-size: 9vw;
   }
 
@@ -67,7 +68,7 @@
       font-size: 7vw;
     }
 
-    h3 {
+    time {
       font-size: 4vw;
       margin-top: -1.6%;
     }
@@ -89,7 +90,7 @@
       font-size: 7vw;
     }
 
-    h3 {
+    time {
       font-size: 4vw;
       margin-top: -1.6%;
     }

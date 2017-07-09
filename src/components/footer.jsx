@@ -26,7 +26,7 @@ var FooterSection = React.createClass({
 					<li className="layer" data-depth="0.15">
 						<ul className="rope depth-10">
 							<li>
-								<img src="../img/footer/rope.png" alt="Rope" />
+								<img src={require("../img/footer/rope.png")} alt="Rope" />
 							</li>
 							<li className="hanger position-2">
 								<div className="board cloud-2 swing-1"></div>
@@ -43,7 +43,7 @@ var FooterSection = React.createClass({
 						<hgroup>
 							<h1>Jackie <small>&amp;</small> Travis</h1>
 							<h2>Wedding</h2>
-							<h3>Sept 1st 2018</h3>
+							<time dateTime="2018-09-01">Sept 1st 2018</time>
 						</hgroup>
 
 						{ /*<h1 className="title">Jackie &amp; Travis
@@ -54,7 +54,7 @@ var FooterSection = React.createClass({
 					<li className="layer" data-depth="0.30">
 						<ul className="rope depth-30">
 							<li>
-								<img src="../img/footer/rope.png" alt="Rope" />
+								<img src={require("../img/footer/rope.png")} alt="Rope" />
 							</li>
 							<li className="hanger position-1">
 								<div className="board cloud-1 swing-3"></div>
@@ -71,7 +71,7 @@ var FooterSection = React.createClass({
 					<li className="layer" data-depth="0.60">
 						<ul className="rope depth-60">
 							<li>
-								<img src="../img/footer/rope.png" alt="Rope" />
+								<img src={require("../img/footer/rope.png")} alt="Rope" />
 							</li>
 							<li className="hanger position-3">
 								<div className="board birds swing-5"></div>

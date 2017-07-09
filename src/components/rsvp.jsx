@@ -12,9 +12,7 @@ var RSVPSection = React.createClass({
 					<div className="row">
 						<div className="col">
 							<h2 className="title">RSVP</h2>
-							Name (first & last)
-							Number Adults
-							Number of kids
+							<a className="btn btn-primary" target="_blank" role="button" aria-disabled="true" href="https://goo.gl/forms/bYYFJeG4q2TUGntN2">Click to RSVP Now!</a>
 						</div>
 					</div>
 				</div>

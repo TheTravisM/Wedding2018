@@ -4,32 +4,32 @@ console.log('App Loaded :)');
 // SCSS Files 
 require('../css/app.scss');
 
-var React = require('react');
-var ReactDOM = require('react-dom');
+const React    = require('react');
+const ReactDOM = require('react-dom');
 
-var Header = require('../components/header');
-var CountDown = require('../components/count-down');
-var Map = require('../components/location');
-var WeddingParty = require('../components/wedding-party');
-var OurStory = require('../components/our-story');
-var Regristry = require('../components/registry');
-var RSVP = require('../components/rsvp');
-var Gallery = require('../components/gallery');
-var Footer = require('../components/footer');
+const Header       = require('../components/header');
+const CountDown    = require('../components/count-down');
+const Location     = require('../components/location');
+const WeddingParty = require('../components/wedding-party');
+const OurStory     = require('../components/our-story');
+const Regristry    = require('../components/registry');
+const RSVP         = require('../components/rsvp');
+const Gallery      = require('../components/gallery');
+const Footer       = require('../components/footer');
 
 ReactDOM.render (
   <div>
     <Header/>
     <main>
       <CountDown/>
-      <Map/>
+      <Location/>
       <WeddingParty/>
       <OurStory/>
       <Regristry/>
       <RSVP/>
       <Gallery/>
     </main>
-    <Footer />
+    <Footer/>
     <script src="/public/assets/bundle.js"></script>
   </div>,
   document.getElementById('app')

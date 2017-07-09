@@ -1,8 +1,8 @@
 "use strict";
 console.log('Header Section JS loaded');
 
-var React = require('react');
-var ReactDom = require('react-dom');
+const React = require('react');
+const ReactDom = require('react-dom');
 
 var BridalPartySection = React.createClass({
   render: function () {
@@ -23,60 +23,82 @@ var BridalPartySection = React.createClass({
             </div>
             <div className="w-100"></div>
             <div className="col">
-              <img src="https://placebear.com/g/150/150" alt="..." className="img-thumbnail" />
-              <picture className="picture img-thumbnail ashden">
+              <picture>
+                <img src={require(`../img/wedding-party/ashden.jpg`)} className="picture img-thumbnail" alt="..." />
               </picture>
               <h4>Megan Barker</h4>
               <h5>The Bad Ass</h5>
             </div>
             <div className="col">
-              <img src="https://placebear.com/g/150/150" alt="..." className="img-thumbnail" />
+              <picture>
+                <img src={require(`../img/wedding-party/ashden.jpg`)} className="picture img-thumbnail" alt="..." />
+              </picture>
               <h4>Bryan Mikolay</h4>
             </div>
             <div className="w-100"></div>
             <div className="col">
-              <img src="https://placebear.com/g/150/150" alt="..." className="img-thumbnail" />
+              <picture>
+                <img src={require(`../img/wedding-party/ashden.jpg`)} className="picture img-thumbnail" alt="..." />
+              </picture>
               <h4>Kim Klump</h4>
               <h5>The Heavy Hitter</h5>
             </div>
             <div className="col">
-              <img src="https://placebear.com/g/150/150" alt="..." className="img-thumbnail" />
+              <picture>
+                <img src={require(`../img/wedding-party/ashden.jpg`)} className="picture img-thumbnail" alt="..." />
+              </picture>
               <h4>James Mikolay</h4>
             </div>
             <div className="w-100"></div>
             <div className="col">
-              <img src="https://placebear.com/g/150/150" alt="..." className="img-thumbnail" />
+              <picture>
+                <img src={require(`../img/wedding-party/ashden.jpg`)} className="picture img-thumbnail" alt="..." />
+              </picture>
               <h4>Ashden Stark</h4>
             </div>
             <div className="col">
-              <img src="https://placebear.com/g/150/150" alt="..." className="img-thumbnail" />
+              <picture>
+                <img src={require(`../img/wedding-party/ashden.jpg`)} className="picture img-thumbnail" alt="..." />
+              </picture>
               <h4>John Mikolay</h4>
             </div>
             <div className="w-100"></div>
             <div className="col">
-              <img src="https://placebear.com/g/150/150" alt="..." className="img-thumbnail" />
+              <picture>
+                <img src={require(`../img/wedding-party/ashden.jpg`)} className="picture img-thumbnail" alt="..." />
+              </picture>
               <h4>Jeanette</h4>
             </div>
             <div className="col">
-              <img src="https://placebear.com/g/150/150" alt="..." className="img-thumbnail" />
+              <picture>
+                <img src={require(`../img/wedding-party/ashden.jpg`)} className="picture img-thumbnail" alt="..." />
+              </picture>
               <h4>Joe Mikolay</h4>
             </div>
             <div className="w-100"></div>
             <div className="col">
-              <img src="https://placebear.com/g/150/150" alt="..." className="img-thumbnail" />
+              <picture>
+                <img src={require(`../img/wedding-party/ashden.jpg`)} className="picture img-thumbnail" alt="..." />
+              </picture>
               <h4>Brittany Beard</h4>
             </div>
             <div className="col">
-              <img src="https://placebear.com/g/150/150" alt="..." className="img-thumbnail" />
+              <picture>
+                <img src={require(`../img/wedding-party/ashden.jpg`)} className="picture img-thumbnail" alt="..." />
+              </picture>
               <h4>Jerry Barker</h4>
             </div>
             <div className="w-100"></div>
             <div className="col">
-              <img src="https://placebear.com/g/150/150" alt="..." className="img-thumbnail" />
+              <picture>
+                <img src={require(`../img/wedding-party/ashden.jpg`)} className="picture img-thumbnail" alt="..." />
+              </picture>
               <h4>Jackie Tannreuther</h4>
             </div>
             <div className="col">
-              <img src="https://placebear.com/g/150/150" alt="..." className="img-thumbnail" />
+              <picture>
+                <img src={require(`../img/wedding-party/ashden.jpg`)} className="picture img-thumbnail" alt="..." />
+              </picture>
               <h4>Tommy Barker</h4>
             </div>
             <div className="w-100"></div>
@@ -85,11 +107,15 @@ var BridalPartySection = React.createClass({
             </div>
             <div className="w-100"></div>
             <div className="col">
-              <img src="https://placebear.com/g/150/150" alt="..." className="img-thumbnail" />
+              <picture>
+                <img src={require(`../img/wedding-party/ashden.jpg`)} className="picture img-thumbnail" alt="..." />
+              </picture>
               <h4>Hailey Barker</h4>
             </div>
             <div className="col">
-              <img src="https://placebear.com/g/150/150" alt="..." className="img-thumbnail" />
+              <picture>
+                <img src={require(`../img/wedding-party/ashden.jpg`)} className="picture img-thumbnail" alt="..." />
+              </picture>
               <h4>Grace Barker</h4>
             </div>
           </div>
