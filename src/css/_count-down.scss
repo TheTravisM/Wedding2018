@@ -3,55 +3,87 @@
 
   .clock-container {
     margin-top: 40px;
+
+    i {
+      color: #444;
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-size: 50px;
+      line-height: 1;
+      display: inline-block;
+    }
+
+    .clock-block {
+      display: inline-block;
+      margin: 0 1vw;
+
+      &:first-of-type {
+        margin-left: 0;
+      }
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+
+      .time-descriptior {
+        display: block;
+        color: #444;
+        font-size: 14px;
+        text-shadow: none;
+      }
+
+      .ticker {
+        background-color: $primary-color-dark;
+        border-radius: 5px;
+        box-shadow: inset 0 1px 0.5px rgba(255, 255, 255, 0.4);
+        border: 1px solid black;
+        color: white;
+        display: block;
+        font-family: sans-serif;
+        line-height: 1;
+        font-size: 12vw;
+        padding: .5vw 1.5vw;
+        position: relative;
+        text-align: center;
+        text-rendering: optimizeLegibility;
+        text-shadow: 0 0 2px black;
+
+        &:after {
+          content: "";
+          position: absolute;
+          top: 50%;
+          left: 0;
+          right: 0;
+          height: .01vw;
+          margin-top: 0.5px;
+          background-color: $primary-color-darker;
+          box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
+        }
+      }
+    }
   }
 
-  .clock-block {
-    display: inline-block;
-    margin: 0 10px;
-  }
+  @media (min-width: 600px) {
+    .clock-container {
+      .clock-block {
+        display: inline-block;
+        margin: 0 10px;
 
-  i {
-    font-family: 'Open Sans',Arial,Helvetica,sans-serif;
-    font-style: normal;
-    font-size: 50px;
-    line-height: 72px;
-    display: inline-block;
-  }
+        i {
+          font-size: 50px;
+          line-height: 72px;
+        }
 
-  .time-descriptior {
-    display: block;
-    color: #222;
-    font-size: 14px;
-    text-shadow: none;
-  }
+        .ticker {
+          font-size: 72px;
+          line-height: 72px;
+          padding: 5px 8px;
 
-  .ticker {
-    background-color: $primary-color-dark;
-    border-radius: 5px;
-    box-shadow: inset 0 1px 0.5px rgba(255, 255, 255, 0.4);
-    border: 1px solid black;
-    color: white;
-    display: block;
-    font-family: sans-serif;
-    font-size: 72px;
-    line-height: 72px;
-    min-width: 100px;
-    padding: 5px 8px;
-    position: relative;
-    text-align: center;
-    text-rendering: optimizeLegibility;
-    text-shadow: 0 0 2px black;
-
-    &:after {
-      content: "";
-      position: absolute;
-      top: 50%;
-      left: 0;
-      right: 0;
-      height: 1px;
-      margin-top: 0.5px;
-      background-color: $primary-color-darker;
-      box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
+          &:after {
+            height: 1px;
+          }
+        }
+      }
     }
   }
 }

@@ -10,7 +10,6 @@ module.exports = {
   entry: [
     "./app",
     "../libs/bootstrap4/js/bootstrap",
-    "./parallax",
     "../components/header",
     "../components/count-down",
     "../components/location",

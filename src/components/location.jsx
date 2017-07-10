@@ -19,12 +19,12 @@ class MapSection extends React.Component{
         <div className="container">
           <h2 className="title">Location</h2>
           <div className="row">
-            <div className="col col-12 col-md-5">
+            <div className="col col-12 col-md-5 location-card">
               <div className="card">
                 <div className="card-block">
                   <h3 className="card-title">Church and Reception</h3>
                   <h4 className="card-title">Immaculate Heart of Mary</h4>
-                  <p className="card-text">7800 Beechmont Ave,<br />Cincinnati, OH 45255</p>
+                  <p className="card-text">7800 Beechmont Ave,<br/>Cincinnati, OH 45255</p>
                 </div>
               </div>
             </div>
@@ -34,7 +34,7 @@ class MapSection extends React.Component{
                   Map to Chruch and Wedding
                 </iframe>
               </div>
-            </div>r
+            </div>
           </div>
         </div>
       </section>
